@@ -18,3 +18,6 @@ This page should use only html and css for visual elements. Html/css frameworks 
  2. Coin denominations for the above can be in any order
  3. Assuming a 1 coin will always exist, the other three coin values can be random, example: 25, 10, *6*, 1
  
+### Submission:
+- Please fork this repo and submit a pull request with your solution. 
+- Be sure to commit frequently so that we may see your progress towards the final solution

@@ -1,5 +1,6 @@
 $(function () {
 	resetcalc();
+	$('#total').on('change mouseup keyup', function () {
 		if ($('#total').val() < 1 || $('#total').val() > 99) { resetcalc() }
 		else { $('#total').val(parseInt($('#total').val()));$('#calc').prop('disabled', false); }
 	});

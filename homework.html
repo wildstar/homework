@@ -10,19 +10,39 @@
     <body>
         <div class="container">
             <div class="row">
+                <div class="wireframe col-xs-12 col-sm-6 col-md-4">
+                    <div class="title">
                         <h4>COIN COUNTER</h4>
                     </div>
-                            </div>
-                        </div>
+                    <div id="coins">
+                        <div id="coin0" class="circle">
+                            <div class="count"><label id="coinlbl0"></label></div>
                             <div class="cointype">
+                                <input id="cointxt0" type="text" value="25">
                             </div>
                         </div>
+                        <div id="coin1" class="circle">
+                            <div class="count"><label id="coinlbl1"></label></div>
+                            <div class="cointype">
+                                <input id="cointxt1" type="text" value="10">
                             </div>
                         </div>
+                        <div id="coin2" class="circle">
+                            <div class="count"><label id="coinlbl2"></label></div>
+                            <div class="cointype">
+                                <input id="cointxt2" type="text" value="5">
+                            </div>
+                        </div>
+                        <div id="coin3" class="circle">
+                            <div class="count"><label id="coinlbl3"></label></div>
+                            <div class="cointype">
+                                <input id="cointxt3" type="text" value="1">
                             </div>
                         </div>
                     </div>
                     <div class="textinput">
+                        <input id="total" type="number" value="0" min="0" max="99">
+                        <input id="calc" type="button" value="CALCULATE">
                     </div>
                 </div>
             </div>

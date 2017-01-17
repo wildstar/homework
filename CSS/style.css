@@ -33,29 +33,31 @@ body {
 	padding: 35px 0 15px 0;
 }
 
-	.title h4 {
-		font-weight: bold;
-	}
+.title h4 {
+	font-weight: bold;
+}
 
-.circle {
-	float: left;
-	margin: 20px;
+.circle{
+	float:left;
+	margin:20px;
 	width: 100px;
 	height: 100px;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
 	background: #ccc;
+	text-align:start;
 }
-
-.cointype input[type=text] {
-	color: #666;
-	border: none;
-	background-color: transparent;
-	font-size: 22px;
-	width: 100px;
-	text-align: center;
+.cointype input[type=text]{
+	color:#666;
+	border:none;
+	background-color:transparent;
+	font-size:22px;
+	width:100px;
+	height:100px;
+	text-align:center;
 	line-height: 50px;
+	position: absolute;
 }
 
 input[type=text]:focus {
@@ -75,18 +77,18 @@ input[type=text]:focus {
 	text-align: center;
 }
 
-	.count label {
-		color: #fff;
-		line-height: 25px;
-	}
+.count label {
+	color: #fff;
+	line-height: 25px;
+}
 
-	.count.hidelabel {
-		background-color: transparent;
-	}
+.count.hidelabel {
+	background-color: transparent;
+}
 
-		.count.hidelabel label {
-			display: none;
-		}
+.count.hidelabel label {
+	display: none;
+}
 
 .textinput input {
 	clear: both;
@@ -95,27 +97,27 @@ input[type=text]:focus {
 	margin: 15px auto;
 }
 
-	.textinput input[type=number] {
-		color: #000;
-		border: 1px solid #ccc;
-		background-color: #fafafa;
-		font-size: 22px;
-		text-align: right;
-		padding: 0 20px;
-	}
+.textinput input[type=number] {
+	color: #000;
+	border: 1px solid #ccc;
+	background-color: #fafafa;
+	font-size: 22px;
+	text-align: right;
+	padding: 0 20px;
+}
 
-	.textinput input[type=button] {
-		color: #fff;
-		border: none;
-		background-color: #000;
-		font-size: 16px;
-		text-align: center;
-	}
+.textinput input[type=button] {
+	color: #fff;
+	border: none;
+	background-color: #000;
+	font-size: 16px;
+	text-align: center;
+}
 
-		.textinput input[type=button]:disabled {
-			color: #fff;
-			background-color: #ccc;
-		}
+.textinput input[type=button]:disabled {
+	color: #fff;
+	background-color: #ccc;
+}
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 650px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
 	.wireframe {
